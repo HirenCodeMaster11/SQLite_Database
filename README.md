@@ -171,3 +171,56 @@ UPDATE employee SET Salary = 2100000000 WHERE Id = 3;
 <div align="center">
 <img width="600"  src="https://github.com/user-attachments/assets/1b8303fa-7f0e-42de-99c0-8b729f02ab0f" />
 </div>
+
+
+<h1 align="left"></h1>
+<h2 align="center"> Update the address for employees in the 'Chairman' role </h2>
+
+## Syntax
+
+```
+UPDATE employee SET Adress = 'Delvada' WHERE Role = 'Chairman';
+```
+
+<h1 align="left"></h1>
+<div align="center">
+<img width="600"  src="https://github.com/user-attachments/assets/05e7b9ef-65f8-496f-81f1-182465d42aef" />
+</div>
+<h1 align="left"></h1>
+<img width="600"  src="https://github.com/user-attachments/assets/37975027-4fbb-47d5-acf8-e65661a470b5" />
+</div>
+
+
+<h1 align="left"></h1>
+<h2 align="center"> Remove an employee with ID 1 </h2>
+
+## Syntax
+
+```
+DELETE FROM employee WHERE Id = 1;
+```
+
+<h1 align="left"></h1>
+<div align="center">
+<img width="600"  src="https://github.com/user-attachments/assets/4c85fe1e-797f-4d18-a285-81f9e00e0952" />
+</div>
+<h1 align="left"></h1>
+<img width="600"  src="https://github.com/user-attachments/assets/1cf73a32-8577-42a9-becb-9bd94dbfaf07" />
+</div>
+
+<h1 align="left"></h1>
+<h2 align="center"> Delete all employees under 20 (assuming it's not a valid age) </h2>
+
+## Syntax
+
+```
+DELETE FROM employee WHERE Age < 20;
+```
+
+<h1 align="left"></h1>
+<div align="center">
+<img width="600"  src="https://github.com/user-attachments/assets/2a6ac5e5-c78f-46cb-be8c-c8f62ef2244b" />
+</div>
+<h1 align="left"></h1>
+<img width="600"  src="https://github.com/user-attachments/assets/dda15557-0aff-4b1a-96a3-043a40d3111c" />
+</div>
